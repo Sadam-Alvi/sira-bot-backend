@@ -11,8 +11,8 @@ from threading import Lock
 # CSV FILES
 # ============================================================
 
-FOOD_ITEMS_FILE = "db/food_items.csv"
-ORDERS_FILE = "db/orders.csv"
+FOOD_ITEMS_FILE = "food_items.csv"
+ORDERS_FILE = "orders.csv"
 
 # Prevent two requests from modifying the CSV at the same time
 csv_lock = Lock()
